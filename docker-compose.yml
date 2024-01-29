@@ -2,7 +2,7 @@ version: '3'
 services:
   reversi:
     image: registry.kedi-server.de/reversi:latest
-    container_name: reversi
+    container_name: reversi_new
     network_mode: host
     cap_add:
       - NET_ADMIN

@@ -18,11 +18,11 @@ jobs:
 
       - name: Build Image
         run: |
-          docker build -t registry.kedi-server.de/reversi:latest .
+          docker build -t server.kedi-server.de:5000/reversi:latest .
 
       - name: Push the Docker image
         run: |
-          docker push registry.kedi-server.de/reversi:latest
+          docker push server.kedi-server.de:5000/reversi:latest
 
   deploy:
     needs: build-image

@@ -16,6 +16,7 @@ if [[ ! -f /config/nginx/ssl.conf ]]; then
     cp /defaults/nginx/ssl.conf.sample /config/nginx/ssl.conf
 fi
 if [[ ! -f /config/nginx/site-confs/default.conf ]]; then
+    cp /defaults/nginx/site-confs/default.conf.sample /config/nginx/site-confs/default.conf
     cp /nginx-configs/* /config/nginx/site-confs/
 fi
 

@@ -5,7 +5,4 @@ FROM lscr.io/linuxserver/swag:latest
 COPY ./confs/*.conf /nginx-configs/
 COPY init-nginx /etc/s6-overlay/s6-rc.d/init-nginx/run
 # Berechtigungen vergeben
-CMD sudo chown 1000:1000 -R /etc/s6-overlay/s6-rc.d/init-nginx/run
-CMD sudo chown 1000:1000 -R /nginx-configs/*
-CMD sudo chmod +x /etc/s6-overlay/s6-rc.d/init-nginx/run
-CMD sudo chmod +x /nginx-configs/*
+RUN chmod +x //etc/s6-overlay/s6-rc.d/init-nginx/run

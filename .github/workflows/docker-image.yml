@@ -16,13 +16,17 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3
 
+      - name: Login
+        run: |
+          docker login -u onlyKeno -p eiX1eu7v+1
+
       - name: Build Image
         run: |
-          docker build -t server.kedi-server.de:5000/reversi:latest .
+          docker build -t onlyKeno/reversi:latest .
 
       - name: Push the Docker image
         run: |
-          docker push server.kedi-server.de:5000/reversi:latest
+          docker push onlyKeno/reversi:latest
 
   deploy:
     needs: build-image

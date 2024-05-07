@@ -18,11 +18,11 @@ jobs:
 
       - name: Build Image
         run: |
-          docker build -t onlyKeno/reversi:latest .
+          docker build -t onlykeno/reversi:latest .
 
       - name: Push the Docker image
         run: |
-          docker push onlyKeno/reversi:latest
+          docker push onlykeno/reversi:latest
 
   deploy:
     needs: build-image

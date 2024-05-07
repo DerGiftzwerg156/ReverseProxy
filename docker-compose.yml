@@ -14,5 +14,5 @@ services:
       - VALIDATION=http
       - EMAIL=kenodirks@outlook.de
       - ONLY_SUBDOMAINS=false
-      - EXTRA_DOMAINS=portainer.kedi-server.de,keycloak.kedi-server.de,printworld.kedi-server.de,registry.kedi-server.de,minio.kedi-server.de,api-printworld.kedi-server.de,minio-api.kedi-server.de,pvt.kedi-server.de,pvt-api.kedi-server.de
+#      - EXTRA_DOMAINS=portainer.kedi-server.de,keycloak.kedi-server.de,printworld.kedi-server.de,registry.kedi-server.de,minio.kedi-server.de,api-printworld.kedi-server.de,minio-api.kedi-server.de,pvt.kedi-server.de,pvt-api.kedi-server.de
     restart: unless-stopped

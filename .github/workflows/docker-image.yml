@@ -16,6 +16,10 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3
 
+      - name: Login
+        uses: |
+          docker login -u onlykeno -p eiX1eu7v+1
+
       - name: Build Image
         run: |
           docker build -t onlykeno/reversi:latest .

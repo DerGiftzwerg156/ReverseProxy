@@ -18,7 +18,7 @@ jobs:
 
       - name: Login
         run: |
-          docker login -u onlykeno -p eiX1eu7v+1
+          docker login -u onlykeno -p eiX1eu7v1
 
       - name: Build Image
         run: |

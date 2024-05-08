@@ -15,5 +15,3 @@ services:
       - ONLY_SUBDOMAINS=false
       - EXTRA_DOMAINS=keycloak.kedi-server.de,printworld.kedi-server.de,registry.kedi-server.de,minio.kedi-server.de,api-printworld.kedi-server.de,minio-api.kedi-server.de,pvt.kedi-server.de,pvt-api.kedi-server.de,portainer.kedi-server.de
     restart: unless-stopped
-    volumes:
-      - /var/certs:/etc/letsencrypt/live

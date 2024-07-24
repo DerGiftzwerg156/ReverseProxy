@@ -9,9 +9,9 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/Berlin
-      - URL=server.kedi-server.de
+      - URL=server.kedi-server.de,server.3dprintthings.de
       - VALIDATION=http
       - EMAIL=kenodirks@outlook.de
       - ONLY_SUBDOMAINS=false
-      - EXTRA_DOMAINS=keycloak.kedi-server.de,printworld.kedi-server.de,registry.kedi-server.de,minio.kedi-server.de,api-printworld.kedi-server.de,minio-api.kedi-server.de,pvt.kedi-server.de,pvt-api.kedi-server.de,portainer.kedi-server.de,iar.kedi-server.de,iar-api.kedi-server.de,familientipp.kedi-server.de,familientipp-api.kedi-server.de
+      - EXTRA_DOMAINS=keycloak.kedi-server.de,printworld.kedi-server.de,registry.kedi-server.de,minio.kedi-server.de,api-printworld.kedi-server.de,minio-api.kedi-server.de,pvt.kedi-server.de,pvt-api.kedi-server.de,portainer.kedi-server.de,iar.kedi-server.de,iar-api.kedi-server.de,familientipp.kedi-server.de,familientipp-api.kedi-server.de,minio-api.3dprintthings.de,minio.3dprintthings.de,keycloak.3dprintthings.de,shop.3dprintthings.de,shop-api.3dprintthings.de
     restart: unless-stopped

@@ -13,5 +13,5 @@ services:
       - VALIDATION=http
       - EMAIL=kenodirks@outlook.de
       - ONLY_SUBDOMAINS=false
-      - EXTRA_DOMAINS=keycloak.kedi-server.de,printworld.kedi-server.de,registry.kedi-server.de,minio.kedi-server.de,api-printworld.kedi-server.de,minio-api.kedi-server.de,pvt.kedi-server.de,pvt-api.kedi-server.de,portainer.kedi-server.de,iar.kedi-server.de,iar-api.kedi-server.de,familientipp.kedi-server.de,familientipp-api.kedi-server.de,shop.printthings.kedi-server.de,shop-api.printthings.kedi-server.de,keycloak.printthings.kedi-server.de,minio.printthings.kedi-server.de,minio-api.printthings.kedi-server.de,
+      - EXTRA_DOMAINS=keycloak.kedi-server.de,printworld.kedi-server.de,registry.kedi-server.de,minio.kedi-server.de,api-printworld.kedi-server.de,minio-api.kedi-server.de,pvt.kedi-server.de,pvt-api.kedi-server.de,portainer.kedi-server.de,iar.kedi-server.de,iar-api.kedi-server.de,familientipp.kedi-server.de,familientipp-api.kedi-server.de,shop.printthings.kedi-server.de,shop-api.printthings.kedi-server.de,keycloak.printthings.kedi-server.de,minio.printthings.kedi-server.de,minio-api.printthings.kedi-server.de,print-que-api.kedi-server.de
     restart: unless-stopped

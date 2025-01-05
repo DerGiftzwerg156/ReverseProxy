@@ -34,4 +34,4 @@ jobs:
     steps:
       - name: Trigger Portainer Webhook
         run: |
-          curl -X POST -H "Content-Type: application/json" -d '{"key": "value"}' https://portainer.kedi-server.de/api/stacks/webhooks/d3afdd4e-59f4-4abe-9d4a-8ba4bd5be44f
+          curl -X POST -H "Content-Type: application/json" -d '{"key": "value"}' https://portainer.kedi-server.de/api/webhooks/0a5a01fe-221a-4fd8-bff8-9caba5a2bb69

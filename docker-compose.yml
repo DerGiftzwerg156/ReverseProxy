@@ -9,7 +9,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/Berlin
-      - URL=server.kedi-server.de,www.nexacode.de
+      - URL=server.kedi-server.de, www.nexacode.de
       - VALIDATION=http
       - EMAIL=kenodirks@outlook.de
       - ONLY_SUBDOMAINS=false

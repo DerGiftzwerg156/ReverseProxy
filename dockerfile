@@ -1,5 +1,5 @@
 # Verwende das Basisimage
-FROM lscr.io/linuxserver/swag:latest
+FROM lscr.io/linuxserver/swag:3.0.1
 
 # Kopiere die Konfigurationsdateien in den Container
 COPY ./confs/*.conf /nginx-configs/
